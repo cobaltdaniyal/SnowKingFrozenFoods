@@ -1,0 +1,15 @@
+.contactMain{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+.contactHeadingMain{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contactHeading{
+    font-family: 'Noto Serif', serif;
+    color: #EC2229;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}

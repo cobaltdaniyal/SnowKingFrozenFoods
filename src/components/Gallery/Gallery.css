@@ -1,0 +1,22 @@
+.galleryImgContainer{
+    object-fit: fill !important;
+    height: 300px;
+    overflow: hidden !important;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .galleryImgContainer{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .galleryImgContainer{
+        height: 50px;
+        object-fit: fill !important;
+    }
+    .sliderImg{
+        width: 100%;
+    }
+}

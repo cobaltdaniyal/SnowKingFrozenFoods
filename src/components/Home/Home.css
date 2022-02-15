@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.navbar{
+    background-color: #EC2229 !important;
+}
+.nav-link{
+    font-weight: 600;
+}
+.companyName{
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.logo{
+    width: 70px;
+    margin-right: 10px;
+}
+.carousel{
+    width: 100% !important;
+    overflow: hidden !important;
+    position: absolute;
+    top: 40px;
+}
+.carousel-control-next{
+    display: block !important;
+}
+.carousel-control-prev{
+    display: block !important;
+}
+.welcomeMain{
+    margin-top: 80px;
+    text-align: center;
+}
+.welcomeHeading{
+    font-family: 'Noto Serif', serif;
+    color: #EC2229;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+.brandsHeadingMain{
+    width: 100%;
+    background-color: #d8d8d8;
+    margin-top: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+.brandsHeading{
+    color: #EC2229;
+    font-family: 'Noto Serif', serif;
+    font-weight: 900;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.brandsMain{
+    width: 100%;
+    background-color: #d8d8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brands{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 40px 10px 30px 10px;
+    display: flex;
+    background-color: #e67a7a;
+    justify-content: center;
+    align-items: center;
+}
+.brand1{
+    width: 100%;
+}
+.quoteMain{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+.quote{
+    color: #EC2229;
+    font-size: 30px;
+    padding-top: 5px;
+    font-weight: 900;
+    font-family: 'Noto Serif', serif;
+}
+.introLine{
+    margin: 20px 0px 50px 0px;
+    font-size: 20px !important;
+}
+.productionMain{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.productionHeading{
+    font-family: 'Noto Serif', serif;
+    color: #EC2229;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.productionImg{
+    margin-top: 70px;
+}
+.galleryMain{
+    margin-top: 100px;
+    background-color: #EC2229;
+    text-align: center !important;
+    padding: 30px 30px 50px 30px;
+}
+.galleryHeading{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+}
+.clienteleMain{
+    margin: auto;
+    text-align: center;
+}
+.clienteleLine{
+    font-size: 20px;
+}
+.flagMargin{
+    margin-top: 50px;
+}
+.flagsMain{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.flagImg{
+    margin: 5px;
+    width: 100%;
+    height: 150px;
+    box-shadow: 5px 5px 20px #d4d4d491;
+    object-fit: fill;
+}
+.aboutMain{
+    width: 100%;
+    margin-top: 100px;
+    background-color: #ececec;
+}
+.aboutBox{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutText{
+    width: 60%;
+    margin-right: 30px;
+    padding: 20px;
+}
+.aboutImg{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutTextHeading{
+    font-family: 'Noto Serif', serif;
+    color: #EC2229;
+    font-weight: 600;
+}
+.aboutTextPara{
+    font-size: 15px !important;
+    color: black;
+}
+
+
+
+
+
+@media only screen and (max-width: 460px) {
+    .logo{
+        width: 60px;
+        margin-right: 5px;
+    }
+    .companyName{
+        font-size: 16px !important;
+    }
+    .carousel{
+        position: absolute;
+        top: 40px;
+    }
+    .carousel-control-next{
+        display: none !important;
+    }
+    .carousel-control-prev{
+        display: none !important;
+    }
+    .carousel-indicators{
+        display: none !important;
+    }
+    .welcomeHeading{
+        font-size: 20px !important;
+    }
+    .brandsHeadingMain{
+        margin-top: 30px !important;
+    }
+    .brands{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .quoteMain{
+        margin-top: 30px !important;
+    }
+    .quote{
+        font-size: 18px !important;
+    }
+    .introLine{
+        font-size: 15px !important;
+        margin: 20px 10px 20px 10px;
+    }
+    .productionImg{
+        margin-top: 30px !important;
+    }
+    .aboutMain{
+        margin-top: 30px !important;
+    }
+    .aboutBox{
+        flex-direction: column !important;
+    }
+    .aboutImg{
+        width: 80% !important;
+        margin: 10px !important;
+    }
+    .aboutText{
+        width: 100% !important;
+        margin-right: 10px !important;
+        padding: 5px !important;
+    }
+  }
