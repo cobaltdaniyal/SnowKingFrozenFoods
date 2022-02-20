@@ -1,7 +1,13 @@
 .galleryImgContainer{
     object-fit: fill !important;
     height: 300px;
-    overflow: hidden !important;
+}
+.sliderImg{
+    width: 100%;
+    transition-duration: 1s;
+}
+.galleryImgContainer :hover {
+    transform: scale(1.3)
 }
 
 

@@ -61,7 +61,7 @@ class Home extends Component {
 
                     {/* Carousel Start */}
 
-                    <div className='carousel'>
+                    <div className='carouselTop'>
                         <Carousel>
                             <Carousel.Item interval={2000}>
                                 <img
@@ -102,16 +102,26 @@ class Home extends Component {
 
 
 
-
-
                     <div className='brandsHeadingMain'>
                         <h2 className='brandsHeading'>OUR BRANDS</h2>
                     </div>
                     <div className='brandsMain'>
-                        <div className='brands'>x</div>
-                        <div className='brands'></div>
-                        <div className='brands'></div>
-                        <div className='brands'></div>
+                        <div className='brands'>
+                        <img src={logo} className='brandSKFF' alt='logo' />
+                        <h5 className='brandSKFFheading'>SNOW KING FROZEN FOODS</h5>
+                        </div>
+                        <div className='brands'>
+                        <img src={logo} className='brandSKFF' alt='logo' />
+                        <h5 className='brandSKFFheading'>SNOW KING FROZEN FOODS</h5>
+                        </div>
+                        <div className='brands'>
+                        <img src={logo} className='brandSKFF' alt='logo' />
+                        <h5 className='brandSKFFheading'>SNOW KING FROZEN FOODS</h5>
+                        </div>
+                        <div className='brands'>
+                        <img src={logo} className='brandSKFF' alt='logo' />
+                        <h5 className='brandSKFFheading'>SNOW KING FROZEN FOODS</h5>
+                        </div>
                     </div>
 
                 </section>

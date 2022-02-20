@@ -35,17 +35,14 @@ class Contact extends Component {
 
                         <Row className="mb-3">
                             <Form.Group as={Col} controlId="formGridCity">
+                                <Form.Label>Country / State</Form.Label>
+                                <Form.Control placeholder="Type your Country or State name" />
+                            </Form.Group>
+                            <Form.Group as={Col} controlId="formGridCity">
                                 <Form.Label>City</Form.Label>
                                 <Form.Control placeholder="Type your city name" />
                             </Form.Group>
 
-                            <Form.Group as={Col} controlId="formGridState">
-                                <Form.Label>State</Form.Label>
-                                <Form.Select defaultValue="Choose...">
-                                    <option>Choose...</option>
-                                    <option>...</option>
-                                </Form.Select>
-                            </Form.Group>
                         </Row>
 
 
