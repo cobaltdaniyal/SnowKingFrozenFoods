@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import { Form, Row, Button, Col, FloatingLabel } from 'react-bootstrap';
-
+import Swal from 'sweetalert2'
 
 
 
@@ -55,12 +55,24 @@ const Contact = () => {
                     country: '',
                     message: '',
                 })
-                alert("DATA STORED");
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Thank You!',
+                    text: 'Your message has been submitted.',
+                  })
             } else {
-                alert("ERROR")
+                Swal.fire({
+                    icon: 'error',
+                    title: 'oops...',
+                    text: 'Something went wrong!',
+                  })
             }
         } else {
-            alert("please fill all the details")
+            Swal.fire({
+                icon: 'warning',
+                title: 'oops...',
+                text: 'please fil all the details',
+              })
         }
     }
 
