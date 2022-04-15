@@ -1,0 +1,27 @@
+.footerMain{
+    text-align: center;
+    background-color: rgb(34, 34, 34) !important;
+    width: 100%;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.logoFooter{
+    width: 100px;
+    margin-right: 10px;
+}
+.companyNameFooter{
+    color: #EC2229;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.navbarFooter{
+    background-color: rgb(34, 34, 34) !important;
+}
+.rightsFooter{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+}
+

@@ -62,7 +62,7 @@ html {
     margin: 40px 10px 30px 10px;
     display: flex;
     flex-direction: column;
-    background-color: #e67a7a;
+    /* background-color: #e67a7a; */
     justify-content: center;
     align-items: center;
 }

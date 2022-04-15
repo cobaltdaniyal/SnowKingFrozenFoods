@@ -1,0 +1,86 @@
+.storyMain {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.ourStoryHeading {
+    margin-top: 20px;
+    font-family: 'Noto Serif', serif;
+    color: #EC2229;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+
+.summaryMain {
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+}
+
+.summaryHeading {
+    color: #EC2229;
+}
+
+.summaryPara1 {
+    width: 100%;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.summary2 {
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.SKFFdetailsMain {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.SKFFheading {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.SKFFdetails {
+    width: 100%;
+}
+
+.listMain {
+    width: 70%;
+    margin: auto;
+    list-style: none;
+}
+
+.listBullets {
+    font-size: 24px;
+    font-weight: bold;
+    color: #EC2229;
+}
+
+.listHeadings {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.certificateList {
+    list-style: none;
+}
+.freezingList{
+    list-style: inside;
+}
+.mortemTypesList{
+    list-style: circle;
+}
+.mortemMainList{
+    font-weight: bold;
+}
+.antemotemList{
+    list-style: square;
+}
+.mortemList{
+    list-style: numeric;
+}

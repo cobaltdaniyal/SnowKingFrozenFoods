@@ -19,12 +19,12 @@
 	height: 200px !important;
 	object-fit: cover !important;
 }
-.productsMain{
+/* .productsMain{
 	background-color: #EC2229;
-}
+} */
 .carousel-control-prev{
-	display: none !important;
+	padding: 0px;
 }
-.carousel-control-next{
-	display: none !important;
+.carousel-control-next-icon{
+	background-image: url(/src//images/left.png) !important;
 }
